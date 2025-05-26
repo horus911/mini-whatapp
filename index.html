@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini WhatsApp</title>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Mini WhatsApp</h1>
+    <button onclick="login()">Se connecter avec Google</button>
+    <div id="user-info"></div>
+    <div id="chat" class="chat-box"></div>
+    <input id="message" placeholder="Ton message..." />
+    <button onclick="sendMessage()">Envoyer</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
